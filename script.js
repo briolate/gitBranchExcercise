@@ -9,12 +9,3 @@ for(var i = 0; i < 30; i++) {
     console.log(i);
   }
 }
-
-function isPal(word) {
-  var ogWOrd = word;
-  if(ogWord === word.split('').reverse().join('')) {
-    console.log('ya it is');
-  } else {
-    console.log('no');
-  }
-}
